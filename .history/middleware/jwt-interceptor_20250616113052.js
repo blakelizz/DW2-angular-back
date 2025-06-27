@@ -1,5 +1,0 @@
-export function intercept (requete, resultat, next){
-    console.log(requete.headers.authorization);
-    
-}
-module.exports = intercept
